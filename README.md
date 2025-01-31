@@ -17,3 +17,17 @@ duration: This is the length of the recording in seconds.
 
 7: The recording will last for 7 seconds.
 ...
+...
+sd.rec(): This function from the sounddevice library starts recording audio.
+
+int(duration * freq): Calculates the total number of samples to record. Since duration is in seconds and freq is samples per second, multiplying them gives the total number of samples. The int() function ensures the result is an integer.
+
+samplerate=freq: Specifies the sampling frequency (44,100 Hz in this case).
+
+channels=2: Specifies the number of audio channels. 2 means stereo (left and right channels).
+
+recording: This variable stores the recorded audio data as a NumPy array. Each element in the array represents an audio sample.
+...
+...
+sd.wait(): This function blocks the program until the recording is complete. Since the recording duration is 7 seconds, the program will wait for 7 seconds before proceeding.
+...

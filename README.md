@@ -31,3 +31,23 @@ recording: This variable stores the recorded audio data as a NumPy array. Each e
 ...
 sd.wait(): This function blocks the program until the recording is complete. Since the recording duration is 7 seconds, the program will wait for 7 seconds before proceeding.
 ...
+...
+write(): This function from scipy.io.wavfile saves the recorded audio data as a .wav file.
+
+"recording0.wav": The name of the output file.
+
+freq: The sampling frequency (44,100 Hz).
+
+recording: The NumPy array containing the audio data.
+...
+...
+wv.write(): This function from the wavio library also saves the recorded audio data as a .wav file.
+
+"recording1.wav": The name of the output file.
+
+recording: The NumPy array containing the audio data.
+
+freq: The sampling frequency (44,100 Hz).
+
+sampwidth=2: Specifies the sample width (number of bytes per sample). 2 means 16-bit audio, which is standard for CD-quality audio.
+...

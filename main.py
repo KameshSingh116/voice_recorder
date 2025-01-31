@@ -7,10 +7,15 @@ freq=44100
 duration=7
 
 record=sd.rec(int(duration*freq), samplerate=freq,channels=2)
+
 sd.wait()
 
-write("recording0",freq,record) #scipy.io.wavfile
+file_name1=input("Enter the filename:")
+file_name2=input("Enter the filename:")
 
-wv.write("recording1",record,freq,sampwidth=2)
+
+write(f"C:/Users/lenovo/Desktop/{file_name1}",freq,record) #scipy.io.wavfile
+
+wv.write(f"C:/Users/lenovo/Desktop/{file_name2}",record,freq,sampwidth=2) #using wavio
 
 

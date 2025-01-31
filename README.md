@@ -51,3 +51,9 @@ freq: The sampling frequency (44,100 Hz).
 
 sampwidth=2: Specifies the sample width (number of bytes per sample). 2 means 16-bit audio, which is standard for CD-quality audio.
 ...
+...
+..
+..
+.
+.
+With this ,we come to an end to our mini project of making a voice recorder using python untill any further/future updates.

@@ -56,4 +56,3 @@ sampwidth=2: Specifies the sample width (number of bytes per sample). 2 means 16
 ..
 .
 .
-With this ,we come to an end to our mini project of making a voice recorder using python untill any further/future updates.

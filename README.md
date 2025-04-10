@@ -56,3 +56,6 @@ sampwidth=2: Specifies the sample width (number of bytes per sample). 2 means 16
 ..
 .
 .
+
+We can choose tjhje length of the audio being recorded
+Also the path can be decided by the user.
